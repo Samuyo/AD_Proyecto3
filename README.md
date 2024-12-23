@@ -5,4 +5,4 @@
 
 ### Diagrama UML
 
-![Diagrama](Diagrama.PNG)
+![Diagrama](src\main\resources\org\example\ad_proyecto3\Diagrama.PNG)
