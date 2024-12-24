@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
 public class AgentesController {
@@ -13,6 +14,9 @@ public class AgentesController {
 
     @FXML
     private ComboBox<?> cmbAgente;
+
+    @FXML
+    private ImageView imgAgente;
 
     @FXML
     private Label lblAgente;
@@ -36,3 +40,4 @@ public class AgentesController {
     private AnchorPane panelAgente;
 
 }
+
