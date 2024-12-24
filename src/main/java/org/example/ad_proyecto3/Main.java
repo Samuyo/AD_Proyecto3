@@ -17,9 +17,12 @@ public class Main extends Application {
     public void start(Stage primaryStage){
         try {
             // Cargar el archivo FXML de login
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/ad_proyecto3/Agentes.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/ad_proyecto3/Mapas.fxml"));
             Parent root = loader.load();
-            AgentesController agentesController = loader.getController();
+            //AgentesController agentesController = loader.getController();
+            //LoginController loginController = loader.getController();
+            //PaquetesController paquetesController = loader.getController();
+            MapasController mapasController = loader.getController();
             primaryStage.setTitle("Agentes");
             primaryStage.setScene(new Scene(root));
             primaryStage.setResizable(false);

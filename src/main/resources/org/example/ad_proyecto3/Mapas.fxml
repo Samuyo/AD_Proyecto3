@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ad_proyecto3.MapasController">
+   <children>
+      <ImageView fitHeight="413.0" fitWidth="716.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Mapas.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="101.0" layoutX="14.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Radiant.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="71.0" layoutX="393.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Inmortal.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="114.0" layoutX="606.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Diamond.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="56.0" layoutX="56.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Platinum.PNG" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblMapa" layoutX="379.0" layoutY="25.0" prefHeight="17.0" prefWidth="32.0" text="Mapa" textFill="#ff0051" />
+      <ComboBox fx:id="cmbMapas" layoutX="379.0" layoutY="47.0" prefHeight="25.0" prefWidth="323.0" style="-fx-background-color: #9c9c9c;" />
+      <TextArea fx:id="txtModos" layoutX="120.0" layoutY="127.0" prefHeight="262.0" prefWidth="200.0" style="-fx-background-color: #9c9c9c;" />
+      <Label fx:id="lblModos" layoutX="120.0" layoutY="103.0" text="Modos" textFill="#ff0051" />
+      <Button fx:id="btnBuscarMapa" layoutX="464.0" layoutY="99.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" style="-fx-background-color: #9c9c9c;" text="Buscar" textFill="#ff0051" />
+   </children>
+</AnchorPane>
