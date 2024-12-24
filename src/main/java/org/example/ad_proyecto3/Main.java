@@ -22,6 +22,7 @@ public class Main extends Application {
             AgentesController agentesController = loader.getController();
             primaryStage.setTitle("Agentes");
             primaryStage.setScene(new Scene(root));
+            primaryStage.setResizable(false);
             primaryStage.show();
 
 
