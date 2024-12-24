@@ -7,8 +7,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<fx:root fx:id="panelAgente" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="725.0" type="AnchorPane" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.main.java.org.example.ad_proyecto3.Controller.AgentesController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ad_proyecto3.AgentesController">
    <children>
       <ImageView fx:id="imgAgente" fitHeight="439.0" fitWidth="729.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -19,10 +18,10 @@
       <Label fx:id="lblAgente" layoutX="14.0" layoutY="45.0" prefHeight="17.0" prefWidth="53.0" text="Agente :" textFill="#8300ff" />
       <Label fx:id="lblIdAgente" layoutX="14.0" layoutY="83.0" prefHeight="17.0" prefWidth="22.0" text="ID :" textFill="#8300ff" />
       <Label fx:id="lblDescripcionAgente" layoutX="14.0" layoutY="145.0" text="Descripcion :" textFill="#8300ff" />
-      <Label layoutX="14.0" layoutY="115.0" text="Rol :" textFill="#8300ff" />
+      <Label fx:id="ldblRolAgente" layoutX="14.0" layoutY="115.0" text="Rol :" textFill="#8300ff" />
       <Label fx:id="lblIdBuscadoAgente" layoutX="65.0" layoutY="83.0" prefHeight="17.0" prefWidth="62.0" style="-fx-background-color: #9c9c9c;" />
       <Label fx:id="lblDescripcionBuscadoAgente" layoutX="14.0" layoutY="162.0" prefHeight="25.0" prefWidth="701.0" style="-fx-background-color: #9c9c9c;" />
       <Label fx:id="lblRolBuscadoAgente" layoutX="65.0" layoutY="115.0" prefHeight="17.0" prefWidth="198.0" style="-fx-background-color: #9c9c9c;" />
       <Button fx:id="btnBuscarAgente" layoutX="87.0" layoutY="312.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="552.0" style="-fx-background-color: #9c9c9c;" text="Buscar" textFill="#8300ff" />
    </children>
-</fx:root>
+</AnchorPane>

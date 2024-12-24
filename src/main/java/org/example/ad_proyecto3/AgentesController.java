@@ -1,4 +1,4 @@
-package org.example.ad_proyecto3.Controller;
+package org.example.ad_proyecto3;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -37,7 +37,9 @@ public class AgentesController {
     private Label lblRolBuscadoAgente;
 
     @FXML
+    private Label ldblRolAgente;
+
+    @FXML
     private AnchorPane panelAgente;
 
 }
-
